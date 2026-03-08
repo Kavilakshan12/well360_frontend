@@ -7,7 +7,7 @@ void main() {
     // Load app
     await tester.pumpWidget(const HydrationApp());
 
-    // Check welcome text
+    // Check welcome text - next
     expect(find.text('Human Hydration'), findsOneWidget);
   });
 }
